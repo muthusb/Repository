@@ -1,0 +1,46 @@
+.back{
+  
+    position: absolute;
+   display: flex;
+   width: 100%;
+   right: 0;
+      z-index: -1;
+      top: 0;
+  
+  }
+  
+  @media (max-aspect-ratio:16/9) {
+      .back{
+          width: auto;
+          height: auto;
+      
+      }
+  }
+  
+  
+  .content{
+      text-align: center;
+  
+  }
+  
+  .content h1{
+      font-size: 160px;
+      color: rgb(250, 250, 255);
+      font-weight: 600;
+  }
+  
+  
+  .content a{
+      position: absolute;
+      text-decoration: none;
+      display: inline-block;
+      color: rgb(233, 233, 247);
+      font-size: 25px;
+      border: 2px solid white;
+      border-radius: 50px;
+      margin-top: 10 px;
+      padding: 10px;
+      align-items: center;
+      margin-right: a;
+  }
+  
